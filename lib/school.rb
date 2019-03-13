@@ -8,15 +8,20 @@ end
 
 
 def add_student(name, num)
-
     if @roster[num] == nil
       @roster[num] = []
     else
     @roster[num].push name
 end
-
  @roster[num].push name
  @roster[num].uniq!
+end
+
+def grade (grade)
+  return @roster[grade] 
+end
+
+
 end
 
 end

@@ -22,7 +22,9 @@ def grade (grade)
 end
 
 def sort
-  @roster.sort!
+  @roster.values.each do |names|
+    names.sort!
+
 end
 
 end

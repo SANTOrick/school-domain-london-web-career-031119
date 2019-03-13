@@ -21,7 +21,7 @@ def grade (grade)
   return @roster[grade]
 end
 
-def sort (grade)
+def sort
   @rosterh.sort.to_h
 end
 

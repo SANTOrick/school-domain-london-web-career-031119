@@ -16,7 +16,7 @@ def add_student(name, num)
 end
 
 @roster[num].push name
-
+@roster.uniq!
 end
 
 end

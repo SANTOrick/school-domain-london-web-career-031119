@@ -22,7 +22,7 @@ def grade (grade)
 end
 
 def sort
-  @rosterh.sort.to_h
+  @roster.sort.to_h
 end
 
 end

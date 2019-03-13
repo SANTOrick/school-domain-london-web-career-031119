@@ -25,9 +25,8 @@ def sort
   @roster.sort.to_h
   @roster.values.each do |names|
     names.sort!
-  end
+      end
   @roster
-
 end
 
 end

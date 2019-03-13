@@ -16,7 +16,7 @@ def add_student(name, num)
 
 
     @roster[num] << name
-      
+
 end
 
 end

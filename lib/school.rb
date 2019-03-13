@@ -15,6 +15,8 @@ def add_student(name, num)
     @roster[num].push name
 end
 
+@roster[num].push name
+
 end
 
 end

@@ -6,4 +6,8 @@ def initialize (school)
 
 end
 
+def roster
+
+end
+
 end

@@ -7,7 +7,7 @@ def initialize (school)
 end
 
 def roster
-  roster = []
+  roster = {}
 
 end
 

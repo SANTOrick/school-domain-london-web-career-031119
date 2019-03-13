@@ -8,10 +8,14 @@ end
 
 def roster
   roster = {}
+  @roster = roster 
+
 
 end
 
 def add_student(name, num)
+
+
 
 end
 

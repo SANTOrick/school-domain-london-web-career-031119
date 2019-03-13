@@ -13,8 +13,8 @@ def add_student(name, num)
     else
     @roster[num].push name
 end
-
-
+ @roster[num].push name
+ @roster[num].uniq!
 end
 
 def grade (grade)

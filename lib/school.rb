@@ -15,7 +15,8 @@ def roster
 end
 
 def add_student(name, num)
-    @roster << name => num
+    @roster << name
+    @roster << num
 
 end
 

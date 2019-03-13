@@ -24,6 +24,7 @@ end
 def sort
   @roster.values.each do |names|
     names.sort!
+  end
 
 end
 

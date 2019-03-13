@@ -23,5 +23,6 @@ end
 
 def sort (grade)
   @rosterh.sort.to_h
+end
 
 end

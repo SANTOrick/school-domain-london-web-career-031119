@@ -27,7 +27,7 @@ def sort
     names.sort!
   end
   @roster
-  
+
 end
 
 end

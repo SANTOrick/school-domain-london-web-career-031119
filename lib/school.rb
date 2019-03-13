@@ -12,8 +12,8 @@ def add_student(name, num)
     if @roster[num] == nil
       @roster[num] = []
     else
-
     @roster[num] << name
+end
 
 end
 

@@ -3,14 +3,20 @@ class School
 
 def initialize (school)
     @school = school
-    @roster = {}
+    @roster = Hash.new(Array.new)
 end
 
 
 def add_student(name, num)
-    @roster << name
-    @roster << num
+    # if @roster[num] != nil
+    #   @roster[num] << name
+    # else
+    #   @roster[num] = [name]
+    # end
 
+
+    @roster[num] << name
+      
 end
 
 end
